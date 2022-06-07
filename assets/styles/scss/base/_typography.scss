@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@font-face {
+  font-family: "Bogart";
+  src: url(/assets/fonts/Bogart-Bold-trial.ttf);
+}
+
+:root {
+  --fs-h1: 2.875rem;
+  --fs-btn: 1.375rem;
+  --fs-copy-btn: 1.5rem;
+}
+body {
+  font-family: "Bogart";
+}
+h1 {
+  font-size: var(--fs-h1);
+  letter-spacing: 0.4rem;
+}
+
+@media screen and (max-width: 540px) {
+  :root {
+    --fs-h1: 1.5rem;
+    --fs-btn: 1rem;
+  }
+}
